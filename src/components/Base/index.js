@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { getAllMail, markMailReadState } from '../../services/mail';
+import MailSection from '../MailSection';
 import './styles.css';
 
 export default class Base extends Component {
@@ -15,11 +16,17 @@ export default class Base extends Component {
   }
 
   render() {
+    const unreadMails = this.state.mails.filter((mail) => mail.unread);
+    const readMails = this.state.mails.filter((mail) => !mail.unread);
+
     return (
       <div className="base">
-        {this.state.mails.map((mail) => (
-          <li key={mail.id}>{mail.subject}</li>
-        ))}
+        <nav className="navbar navbar-inverse bg-primary">
+          <a className="navbar-brand" href="#">Twine Mail</a>
+        </nav>
+
+        <MailSection title="Unread" mails={unreadMails} />
+        <MailSection title="Read" mails={readMails} />
       </div>
     );
   }

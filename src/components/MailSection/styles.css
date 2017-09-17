@@ -1,0 +1,10 @@
+.mail-section {
+  margin-top: 25px;
+
+  & h2 {
+    font-size: 0.9rem;
+    padding-left: 20px;
+    margin-bottom: 15px;
+    text-transform: uppercase;
+  }
+}
