@@ -1,0 +1,36 @@
+{
+  "name": "mail-exercise",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --content-base public/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinwoo/mail-exercise.git"
+  },
+  "author": "Calvin Woo <calvinwoo32@gmail.com> (http://calvinwoo.com)",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/calvinwoo/mail-exercise/issues"
+  },
+  "homepage": "https://github.com/calvinwoo/mail-exercise#readme",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.25.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.4",
+    "postcss-cssnext": "^3.0.2",
+    "postcss-loader": "^2.0.6",
+    "react": "^15.6.1",
+    "react-dom": "^15.6.1",
+    "style-loader": "^0.18.2",
+    "webpack": "^3.5.2",
+    "webpack-dev-server": "^2.7.1"
+  },
+  "dependencies": {}
+}
