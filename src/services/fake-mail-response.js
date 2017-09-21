@@ -7,7 +7,7 @@ export default {
       to: [
 "a@gmail.com",
 "b@gmail.com",
-"c.gmail.com"
+"c@gmail.com"
       ],
       body: "Mi augue mattis vitae erat risus nibh, mauris sodales nonummy a, vestibulum lacinia",
       date: "2017-08-01T14:30Z",
@@ -20,7 +20,7 @@ export default {
       to: [
 "a@gmail.com",
 "b@gmail.com",
-"c.gmail.com"
+"c@gmail.com"
       ],
       body: "Ornare integer tincidunt quis ut nam, lobortis dignissim, montes eros",
       date: "2017-08-01T12:15Z",
@@ -33,7 +33,7 @@ export default {
       to: [
 "a@gmail.com",
 "b@gmail.com",
-"c.gmail.com"
+"c@gmail.com"
       ],
       body: "Eget non amet senectus. Aliquam tincidunt nullam tellus morbi bibendum leo",
       date: "2017-04-01T09:47Z",
@@ -72,7 +72,7 @@ export default {
       to: [
 "a@gmail.com",
 "b@gmail.com",
-"c.gmail.com"
+"c@gmail.com"
       ],
       body: "It has been used as dummy text since the 1500s",
       date: "2014-11-16T00:30Z",
