@@ -1,7 +1,7 @@
 .mail-section {
   margin-top: 25px;
 
-  & h2 {
+  & .mail-section-title {
     font-size: 0.9rem;
     padding-left: 20px;
     margin-bottom: 15px;

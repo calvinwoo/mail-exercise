@@ -2,4 +2,8 @@
   &.list-group-item {
     border-radius: 0;
   }
+
+  & .content {
+    padding-left: 22px;
+  }
 }
