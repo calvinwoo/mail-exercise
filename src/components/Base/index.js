@@ -41,8 +41,8 @@ export default class Base extends Component {
           <a className="navbar-brand" href="#">Twine Mail</a>
         </nav>
 
-        <MailSection title="Unread" mails={unreadMails} markMail={markMailRead} />
-        <MailSection title="Read" mails={readMails} markMail={markMailUnread} />
+        <MailSection isUnread={true} mails={unreadMails} markMail={markMailRead} />
+        <MailSection isUnread={false} mails={readMails} markMail={markMailUnread} />
       </div>
     );
   }
