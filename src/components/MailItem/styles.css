@@ -1,9 +1,15 @@
-.mail-item {
-  &.list-group-item {
-    border-radius: 0;
+.mail-item.list-group-item {
+  height: 120px;
+  min-width: 545px;
+  border-radius: 0;
+
+  & .mail-content {
+    padding-left: 22px;
+    width: 350px;
   }
 
-  & .content {
-    padding-left: 22px;
+  & .mail-date {
+    text-align: right;
+    width: calc(100% - 410px);
   }
 }

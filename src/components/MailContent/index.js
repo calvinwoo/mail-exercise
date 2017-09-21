@@ -9,10 +9,8 @@ const MailContent = ({ subject, from, to, body, date }) => {
   return (
     <span className="mail-content">
       <h2>{subject}</h2>
-      <div>{contacts}</div>
-      <div>
-        {body}
-      </div>
+      <div className="contacts">{contacts}</div>
+      <div className="body text-muted">{body}</div>
     </span>
   );
 };
