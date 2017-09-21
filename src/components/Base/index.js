@@ -12,7 +12,10 @@ export default class Base extends Component {
   }
 
   componentDidMount() {
-    getAllMail().then((mails) => this.setState({ mails }));
+    getAllMail().then((mails) => {
+      const sorted = mails.sort((mailA, mailB) => Date.parse(mailA) < Date.parse(mailB) ? 1 : -1);
+      this.setState({ mails: sorted })
+    });
   }
 
   render() {
