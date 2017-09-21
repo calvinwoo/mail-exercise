@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "mocha src/test-setup.js src/**/*.spec.js",
     "start": "webpack-dev-server --content-base public/"
   },
   "repository": {
@@ -25,11 +25,17 @@
     "babel-preset-env": "^1.6.0",
     "babel-preset-react": "^6.24.1",
     "babel-preset-stage-2": "^6.24.1",
+    "chai": "^4.1.2",
     "css-loader": "^0.28.4",
+    "enzyme": "^2.9.1",
+    "jsdom": "^11.2.0",
+    "mocha": "^3.5.3",
     "postcss-cssnext": "^3.0.2",
     "postcss-loader": "^2.0.6",
     "react": "^15.6.1",
     "react-dom": "^15.6.1",
+    "react-test-renderer": "^15.6.1",
+    "sinon": "^3.3.0",
     "style-loader": "^0.18.2",
     "validator": "^8.2.0",
     "webpack": "^3.5.2",
